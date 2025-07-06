@@ -28,32 +28,31 @@ A full-stack web application to manage personal or professional tasks. Users can
 
 root
 │
-├── client/                         # React frontend
-│   ├── public/                    # Static files
-│   └── src/                       # Source code
-│       ├── components/            # Reusable components
-│       │   ├── TaskForm.js        # Form for adding/editing tasks
-│       │   └── TaskList.js        # Displays list of tasks
-│       ├── App.css                # App-level styles
-│       ├── App.js                 # Main React component
-│       ├── index.css              # Global CSS styles
-│       └── index.js               # React entry point
+├── client/                         
+│   ├── public/                    
+│   └── src/                       
+│       ├── components/            
+│       │   ├── TaskForm.js       
+│       │   └── TaskList.js        
+│       ├── App.css                
+│       ├── App.js                 
+│       ├── index.css              
+│       └── index.js               
 │
-├── server/                        # Node.js + Express backend
-│   ├── config/                    # (Optional) DB configuration
-│   ├── controllers/              # Business logic
+│   ├── config/                    
+│   ├── controllers/              
 │   │   └── task.controller.js
-│   ├── middlewares/              # Error handling
+│   ├── middlewares/              
 │   │   └── error.js
-│   ├── models/                   # Sequelize models or raw SQL handling
+│   ├── models/                   
 │   │   ├── index.js
 │   │   └── task.model.js
-│   ├── routes/                   # RESTful API routes
+│   ├── routes/                   
 │   │   └── task.routes.js
-│   └── app.js                    # Entry point for Express server
+│   └── app.js                    
 │
-├── README.md                     # Project documentation
-└── .env                          # Environment variables (excluded from git)
+├── README.md                     
+└── .env                        
 
 
 
